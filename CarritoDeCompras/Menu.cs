@@ -40,7 +40,7 @@ namespace CarritoDeCompras
                             Console.WriteLine("* * * Introduzca cantidad de camisas a añadir: ");
                             _amount = Convert.ToInt32(Console.ReadLine());
                             Console.WriteLine("* * * Se agregaron " + _amount + " camisas.");
-                            carrito.Quantity = _amount;
+                            carrito.Quantity = carrito.Quantity + _amount;
                             break;
                         case 2:
                             if (_amount > 0)
