@@ -17,7 +17,7 @@ namespace CarritoDeCompras
             Total = Quantity * price;
         }
 
-        public void ApplyDiscount(double price)
+        public void ApplyDiscount()
         {
             if (Quantity >= 3 && Quantity <= 5)
             {

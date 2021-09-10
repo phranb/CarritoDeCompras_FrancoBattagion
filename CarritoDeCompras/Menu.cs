@@ -12,7 +12,7 @@ namespace CarritoDeCompras
             do
             {
                 carrito.CalculateTotal(camisa.GetUnitPrice());
-                carrito.ApplyDiscount(camisa.GetUnitPrice());
+                carrito.ApplyDiscount();
 
                 Console.WriteLine("MENÚ PRINCIPAL:");
                 Console.WriteLine("1- Añadir camisas al carro de compras.");
